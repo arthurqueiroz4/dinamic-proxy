@@ -1,4 +1,4 @@
-package com.arthurqueiroz.dinamic.proxy;
+package com.arthurqueiroz.dinamic;
 
 import java.util.List;
 

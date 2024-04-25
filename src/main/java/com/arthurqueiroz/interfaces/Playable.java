@@ -1,4 +1,4 @@
-package com.arthurqueiroz.dinamic.proxy.interfaces;
+package com.arthurqueiroz.interfaces;
 
 import java.io.File;
 

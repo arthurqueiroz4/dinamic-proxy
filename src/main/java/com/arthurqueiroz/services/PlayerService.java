@@ -1,14 +1,14 @@
-package com.arthurqueiroz.dinamic.proxy.services;
+package com.arthurqueiroz.services;
 
 import java.io.File;
 
-import com.arthurqueiroz.dinamic.proxy.annotations.MyCustomTransaction;
-import com.arthurqueiroz.dinamic.proxy.annotations.TransactionalService;
-import com.arthurqueiroz.dinamic.proxy.interfaces.Playable;
-import com.arthurqueiroz.dinamic.proxy.interfaces.Seekable;
+import com.arthurqueiroz.dinamic.annotation.MyCustomTransaction;
+import com.arthurqueiroz.dinamic.annotation.TransactionalService;
+import com.arthurqueiroz.interfaces.Playable;
+import com.arthurqueiroz.interfaces.Seekable;
 
 @TransactionalService
-public class PlayerService implements Playable, Seekable{
+public class PlayerService implements Playable, Seekable {
 
     @Override
     @MyCustomTransaction

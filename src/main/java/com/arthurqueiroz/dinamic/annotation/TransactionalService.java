@@ -1,4 +1,4 @@
-package com.arthurqueiroz.dinamic.proxy.annotations;
+package com.arthurqueiroz.dinamic.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
